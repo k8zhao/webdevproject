@@ -1,0 +1,165 @@
+/* stylesheet for Blue Monkey Tea Pittsburgh website */
+
+body {
+    background-color: #F1F0EA;
+    font-family: "PT Sans", sans-serif; 
+    color: #5A595F; 
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif; 
+    color: #5A595F; 
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #E88D67; 
+    font-weight: bold; 
+    font-size: 24px;
+}
+
+h4 {
+    font-family: "Montserrat", sans-serif;
+    color: #8895B3;
+    font-size: 20px;
+}
+
+p {
+    font-family: "PT Sans", sans-serif;
+    color: #5A595F; 
+    font-size: 18px;
+}
+
+#container {
+    width: 70%; 
+    margin: auto;
+}
+
+#top_row {
+    margin: 100px 0px;
+}
+
+#top_row nav{
+    float: right; 
+}
+
+#top_row nav a {
+    text-decoration: none;
+    color: #8895B3;
+    padding: 10px 20px;
+}
+
+#top_row nav a.selected {
+    background: #5A595F;
+    color: #F1F0EA; 
+}
+
+#top_row nav a:hover {
+    text-decoration: underline;
+}
+
+#top_row header {
+    display: flex; 
+}
+
+#top_row h1 {
+    color: #5A595F; 
+    margin-left: 30px; 
+}
+
+#accordion {
+    padding: 30px 0px;
+}
+
+#visit-content {
+    display: flex;
+}
+
+#map {
+    width: 40%;
+    float: left;
+    margin: 5%;
+}
+
+#hours {
+    width: 40%;
+    float: right;
+    margin: 5%; 
+}
+
+iframe {
+    width: 400px;
+}
+
+
+table {
+    margin: auto;    
+    border-collapse: collapse;
+    width: 75%;
+}
+
+.tcol {
+    color: #E88D67; 
+}
+
+th, td {
+    border-bottom: 1px solid #5A595F; 
+}
+
+td {
+    padding: 10px;
+}
+
+table img {
+    width: 250px;
+}
+
+table a {
+    color: #8895B3; 
+}
+
+li {
+    font-family: "PT Sans", sans-serif;
+    color: #5A595F; 
+    font-size: 18px;
+}
+
+form {
+    width: 75%;
+    margin: auto;
+    padding: 30px;
+}
+
+legend {
+    text-align: center; 
+    margin-bottom: 5px;
+}
+
+#content-gallery {
+    background-color: #E88D67; 
+    margin: 20px 0px;
+}
+
+#gallery {
+    display: flex;
+}
+
+#gallery img {
+    margin: 20px;
+}
+
+footer {
+    background-color: #8895B3; 
+    text-align: center;
+    padding: 50px;
+    color: #F1F0EA; 
+}
+
+footer a{
+    color: #F1F0EA; 
+}
+
+footer img {
+    width: 50px;
+    padding: 10px 10px;
+}

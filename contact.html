@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Kate Zhao">
+    <meta name="keywords" content="Blue Monkey Tea, Pittsburgh, Tea Shop">
+    <meta name="description" content="Blue Monkey Tea Pittsburgh Professional Website">
+
+    <!-- Sets store logo to tab icon -->
+    <link rel="shortcut icon" type="image/png" href="images/logo.png">
+
+    <!-- External Link for Google Font-->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+    <!-- External Links to CSS files -->
+    <link rel="stylesheet" media="all" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css">
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery.lightbox.css">
+
+    <!-- External Links to JS files -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery.lightbox.min.js"></script>
+
+    <title>Contact Us</title>
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="top_row">
+            <header>
+                <a href="index.html"><img src="images/logo.png" alt="logo" width=100></a>
+                <h1>Blue Monkey Tea Pittsburgh</h1>
+            </header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="visit.html">Visit Us</a>
+                <a class="selected" href="contact.html">Contact Us</a>
+            </nav>
+        </div>
+        <div id="content">
+            <h3>Contact Us</h3>
+            <br><br>
+
+            <h4>Blue Monkey Tea Contact Information</h4>
+            <p>Talk to us! We want to hear from you:</p>
+
+            <!-- Table of all of store's contact information -->
+            <table>
+                <tr>
+                    <td class="tcol">Address</td>
+                    <td>5872 Forbes Ave,
+                        Pittsburgh, PA 15217</td>
+                </tr>
+
+                <tr>
+                    <td class="tcol">Phone</td>
+                    <td>(412) 422-1606</td>
+                </tr>
+
+                <tr>
+                    <td class="tcol">Email</td>
+                    <td><a href="mailto:100teacups@gmail.com" title="clickable link to store's email">100teacups@gmail.com</a></td>
+                </tr>
+
+                <tr>
+                    <td class="tcol">Store</td>
+                    <td><img src="images/store.png" alt="store"></td>
+                </tr>
+
+                <tr>
+                    <td class="tcol">Facebook</td>
+                    <td><a href="https://www.facebook.com/TeaPittsburgh/" target="_blank" title="store's facebook link">https://www.facebook.com/TeaPittsburgh/</a></td>
+                </tr>
+
+                <tr>
+                    <td class="tcol">Instagram</td>
+                    <td><a href="https://www.instagram.com/bluemonkeytea/" target="_blank" title="store's instagram link">https://www.instagram.com/bluemonkeytea/</a></td>
+                </tr>
+
+                <tr>
+                    <td class="tcol">Blog</td>
+                    <td><a href="https://teapittsburgh.wordpress.com/" target="_blank" title="store's youtube link">https://teapittsburgh.wordpress.com/</a></td>
+                </tr>
+            </table>
+            <br><br>
+
+            <hr>
+
+            <h4>Mailing List</h4>
+            <p>Please use the form below to subscribe to our mailing list to get weekly updates and coupons!</p>
+
+            <!-- Form to subscribe to mailing list; will validate fields when submitted -->
+            <form onsubmit="return validate()">
+                <fieldset>
+                    <legend>Let's stay in touch</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" maxlength="50" placeholder="Your Name" required>
+                    <br><br>
+                    <label for="zip">Zip Code (5 digits):</label>
+                    <input type="text" id="zip" maxlength="5" placeholder="12345">
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" maxlength="50" placeholder="abcd@efg.com" required>
+                    <br><br>
+                    <input type="checkbox" id="coupons">
+                    <label for="coupons">I would like to subscribe to Blue Monkey Tea’s coupon weekly flyer.</label>
+                </fieldset>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+    </div>
+
+    <footer>
+        &copy; Blue Monkey Tea Pittsburgh<br>
+        <a href="mailto:100teacups@gmail.com">EMAIL US</a>
+        <div id="socialmedia">
+            <a href="https://www.facebook.com/TeaPittsburgh/" target="_blank" title="store's facebook link"><img src="images/facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/bluemonkeytea/" target="_blank" title="store's instagram link"><img src="images/instagram.png" alt="instagram"></a>
+            <a href="https://www.youtube.com/watch?v=aUntXEBgfHw" target="_blank" title="store's youtube link"><img src="images/youtube.png" alt="youtube"></a>
+        </div>
+        <!-- Source for social media icons -->
+        <a href="https://www.vecteezy.com/free-vector/twitter-icon" title="this is a citation for the source where I got my icons">Twitter Icon Vectors by Vecteezy</a>
+    </footer>
+</body>
+</html>
